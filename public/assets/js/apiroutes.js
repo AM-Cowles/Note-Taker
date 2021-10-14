@@ -4,7 +4,7 @@ const {
 } = require('uuid');
 const util = require('util');
 
-const dbFile = require('../db/db.json');
+const dbFile = require('../../db/db.json');
 
 function jsonReader(filePath, cb) {
     fs.readFile(filePath, (err, fileData) => {
